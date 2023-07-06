@@ -7,9 +7,11 @@
     <meta name="viewpoint" content="width=device, initial-scale=1.0">
     <title>Kristian Smith Personal Portfolio</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Poppins:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&family=Rubik:wght@400;500;600;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
         rel="stylesheet">
 </head>
 
@@ -17,7 +19,7 @@
     <div id="header">
         <div class="container">
             <nav>
-                <img src="assets/images/logo.png" class="logo">
+                <img src="assets/images/kristian-logo-transparaent.png" class="logo">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -86,6 +88,80 @@
         </div>
     </div>
 
+    <!--------services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <ion-icon name="code-slash-outline"></ion-icon>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quo ipsum repellendus dolorem unde minus nihil nesciunt. Veritatis expedita tenetur ullam ut necessitatibus facere ipsa aut! Sequi reprehenderit beatae ea?</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <ion-icon name="crop-outline"></ion-icon>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quo ipsum repellendus dolorem unde minus
+                    nihil nesciunt. Veritatis expedita tenetur ullam ut necessitatibus facere ipsa aut! Sequi reprehenderit beatae
+                    ea?</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <ion-icon name="happy-outline"></ion-icon>
+                <h2>App Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias quo ipsum repellendus dolorem unde minus
+                    nihil nesciunt. Veritatis expedita tenetur ullam ut necessitatibus facere ipsa aut! Sequi reprehenderit beatae
+                    ea?</p>
+                <a href="#">Learn more</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<!----------portfolio----------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="assets/images/work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                        <a href="#"><ion-icon name="link-outline"></ion-icon></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/images/work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                    <a href="#">
+                        <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="assets/images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>The app connects you to the talented people around the world.
+                        Download it from play store.</p>
+                    <a href="#">
+                        <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
     <script>
         var tablinks = document.getElementsByClassName("tab-links");
         var tabcontents = document.getElementsByClassName("tab-contents");
