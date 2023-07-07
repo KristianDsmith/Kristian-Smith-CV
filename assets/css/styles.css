@@ -55,7 +55,7 @@ nav ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #88f522;
+    background: #59dd2d;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -77,7 +77,7 @@ nav ul li a:hover::after {
 }
 
 .header-text h1 span {
-    color: #88f522;
+    color: #59dd2d
 }
 
 /*----------about---------*/
@@ -128,7 +128,7 @@ nav ul li a:hover::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #88f522;
+    background: #59dd2d;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -200,7 +200,7 @@ nav ul li a:hover::after {
 }
 
 .services-list div:hover {
-    background: #88f522;
+    background: #59dd2d;
     transform: translateY(-10px);
 }
 
@@ -233,7 +233,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.5), #88f522);
+    background: linear-gradient(rgba(0,0,0,0.5), #59dd2d);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -257,7 +257,7 @@ nav ul li a:hover::after {
 
 .layer ion-icon {
     margin-top: 20px;
-    color: #88f522;
+    color: #59dd2d;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -280,7 +280,7 @@ nav ul li a:hover::after {
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #88f522;
+    border: 1px solid #59dd2d;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -289,14 +289,14 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-    background: #88f522;
+    background: #59dd2d;
 }
 
 .roots {
     text-decoration: none;
     font-size: 15px;
     margin-right: 15px;
-    color: #88f522;
+    color: #59dd2d;
     
 }
 
@@ -315,7 +315,7 @@ nav ul li a:hover::after {
 }
 
 .contact-left p ion-icon {
-    color: #88f522;
+    color: #59dd2d;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -334,13 +334,13 @@ nav ul li a:hover::after {
 }
 
 .social-icons a:hover {
-    color: #88f522;
+    color: #59dd2d;
     transform: translateY(-5px);
 }
 
 .btn.btn2 {
     display: inline-block;
-    background: #88f522;
+    background: #59dd2d;
 }
 
 .contact-right form {
@@ -403,7 +403,7 @@ nav .fas {
     }
 
     nav ul{
-        background: #88f522;
+        background: #59dd2d;
         position: fixed;
         top: 0;
         right: -200px;
@@ -443,7 +443,7 @@ nav .fas {
     }
 
     .tab-links{
-        font-size: 10px;
+        font-size: 15px;
         margin-right: 5px;
     }
 
