@@ -8,14 +8,18 @@
     <meta name="description" content="kristian smith portfolio">
     <meta name="keywords" content="UX, UI, web development, coding, portfolio">
     <meta name="author" content="Kristian Smith">
-    <title>Kristian Smith Personal Portfolio</title>
+
+    
     <link rel="stylesheet" href="assets/css/styles.css">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap"
         rel="stylesheet">
+
+    <title>Kristian Smith Personal Portfolio</title>
 </head>
 
 <body>
@@ -246,12 +250,12 @@
             </div>
             <div class="contact-right">
                 <form name="submit-to-google-sheet">
-                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="name" placeholder="Your Name" required>
                     <input type="email" name="email" placeholder="Your Email" required>
-                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
-                <span id="msg">hello</span>
+                <span id="msg"></span>
             </div>
         </div>
     </div>
@@ -290,12 +294,12 @@
     </script>
 
     <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxsH78BV4b2qhhh5i D9hDpSf9k1vc3korw7KzrNTW0V9 hj8-ft6DAU3hxwbVytOPLHbYg/exec';
-        const form = document.forms['submit-to-google-sheet'];
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyoS5jCoamauQxeo1ngrpyrKEjiOkEvRLQ40O5abWsJQPcNi2brF7-PSE4RNllCguRKzw/exec'
+        const form = document.forms['submit-to-google-sheet']
         const msg = document.getElementById("msg")
 
         form.addEventListener('submit', e => {
-            e.preventDefault();
+            e.preventDefault()
             fetch(scriptURL, { method: 'POST', body: new FormData(form) })
                 .then(response => {
                     msg.innerHTML = "Message sent successfully"
@@ -306,7 +310,7 @@
                         
                     
                 })
-                .catch(error => console.error('Error!', error.message));
+                .catch(error => console.error('Error!', error.message))
         })
     </script>
 </body>
