@@ -183,6 +183,7 @@ nav ul li a:hover::after {
 .services-list div ion-icon {
     font-size: 40px;
     margin-bottom: 30px;
+    color: #59dd2d;
 }
 
 .services-list div h2 {
